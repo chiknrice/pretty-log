@@ -1,0 +1,14 @@
+plugins {
+    id 'java-library'
+}
+
+group 'org.chiknrice'
+version '1.0-SNAPSHOT'
+
+dependencies {
+    testImplementation 'junit:junit:4.12'
+}
+
+repositories {
+    mavenCentral()
+}
